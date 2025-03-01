@@ -434,10 +434,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-a-paper-about-deblurring-radiance-fields-is-accepted-to-cvpr-2025",
+            },},{id: "news-a-paper-about-deblurring-radiance-fields-is-accepted-to-cvpr-2025",
           title: 'A paper about deblurring radiance fields is accepted to CVPR 2025.',
           description: "",
           section: "News",},{id: "projects-project-1",
