@@ -27,4 +27,5 @@ latest_posts:
 Before joining KT, I earned my M.S. from [POSTECH](https://www.postech.ac.kr/kor/index.do), where I was a member of the [Computer Graphics Lab](https://cg.postech.ac.kr/) under the supervision of [Prof. Sunghyun Cho](https://www.scho.pe.kr/).  
 
 My research lies in the intersection of computer graphics and computer vision, with an emphasis on neural rendering techniques for real-world applications.
+
 Feel free to get in touch if you'd like to discuss my work.
