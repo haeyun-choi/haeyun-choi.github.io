@@ -24,7 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a research scientist at [KT R&D Center](https://corp.kt.com/).  
 Before joining KT, I earned my M.S. from [POSTECH](https://www.postech.ac.kr/kor/index.do), where I was a member of the [Computer Graphics Lab](https://cg.postech.ac.kr/) under the supervision of [Prof. Sunghyun Cho](https://www.scho.pe.kr/).  
 
 My research lies in the intersection of computer graphics and computer vision, with an emphasis on neural rendering techniques for real-world applications.
