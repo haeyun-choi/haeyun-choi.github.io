@@ -429,12 +429,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-a-paper-has-been-accepted-to-ipiu-2025-as-an-oral-presentation",
+          title: 'A paper has been accepted to IPIU 2025 as an oral presentation.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-paper-about-deblurring-radiance-fields-is-accepted-to-cvpr-2025",
+          section: "News",},{id: "news-a-paper-about-deblurring-radiance-fields-is-accepted-to-cvpr-2025",
           title: 'A paper about deblurring radiance fields is accepted to CVPR 2025.',
           description: "",
           section: "News",},{id: "projects-project-1",
