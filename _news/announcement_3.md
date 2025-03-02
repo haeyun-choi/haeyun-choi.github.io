@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I won the Best Paper Award at [IPIU 2025](http://www.ipiu.or.kr/).
+I won the Outstanding Paper Award at [IPIU 2025](http://www.ipiu.or.kr/).
