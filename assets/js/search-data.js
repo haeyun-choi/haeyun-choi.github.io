@@ -70,7 +70,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Haeyun Choi", "_blank");
+          window.open("https://www.linkedin.com/in/haeyun-choi", "_blank");
         },
       },{
         id: 'social-scholar',
