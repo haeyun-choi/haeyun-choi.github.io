@@ -14,6 +14,7 @@
 @string{NeurIPS-D = {Conference on Neural Information Processing Systems Dataset and Benchmark (<b>NeurIPS-D</b>),}}
 @string{arXiv = {arXiv preprint}}
 @string{OpenReview = {OpenReview preprint}}
+@string{IPIU = {Workshop on Image Processing and Image Understanding (<b>IPIU</b>)}}
 
 @inproceedings{choi2025exploiting,
   title={Exploiting Deblurring Networks for Radiance Fields},
@@ -21,12 +22,24 @@
   abstract={In this paper, we propose DeepDeblurRF, a novel radiance field deblurring approach that can synthesize high-quality novel views from blurred training views with significantly reduced training time. DeepDeblurRF leverages deep neural network (DNN)-based deblurring modules to enjoy their deblurring performance and computational efficiency. To effectively combine DNN-based deblurring and radiance f ield construction, we propose a novel radiance field (RF)guided deblurring and an iterative framework that performs RF-guided deblurring and radiance field construction in an alternating manner. Moreover, DeepDeblurRF is compatible with various scene representations, such as voxel grids and 3D Gaussians, expanding its applicability. We also present BlurRF-Synth, the first large-scale synthetic dataset for training radiance field deblurring frameworks. We conduct extensive experiments on both camera motion blur and defocus blur, demonstrating that DeepDeblurRF achieves state-of-the-art novel-view synthesis quality with significantly reduced training time.},
   booktitle=CVPR,
   year={2025},
-  website={https://haeyun-choi.github.io/},
+  website={https://haeyun-choi.github.io/DDRF_site},
   abbr={CVPR},
   arxiv={2502.14454},
   selected={true}, 
   preview={deepdeblurrf.jpg},
   note={<span style="color: red;">Outstanding Paper Award at IPIU 2025</span>}
+}
+
+@inproceedings{choi2024optical,
+  title={Optical Flow-based Shakiness Detection in Dash-cams for Hit-and-Run Accident Analysis},
+  author={Haeyun Choi and Sunghyun Cho},
+  abstract={In this paper, we present a straightforward approach for detecting video shakiness in dash-cams and demonstrate its potential application in analyzing hit-and-run accidents. We use optical flow to calculate directional components of motion vectors for each key point, uniformly distributed across every frame. Subsequently, we leverage the trend of the standard deviation of these motion vectors' directions to detect occurrences of shake in dash-cam footage. Since there is no publicly available dataset related to hit-and-run accidents, we collected a total of 63 dash-cam videos to evaluate the performance of our algorithm. The experimental results show that the proposed method achieves high detection performance across various types and levels of hit-and-run accidents even under low-light or nighttime conditions.},
+  booktitle=IPIU,
+  year={2024},
+  abbr={IPIU},
+  pdf={https://drive.google.com/file/d/1Vq19q-U6sxwd0jW8TQ_fpUtJkmuP0KgO/view},
+  selected={true},
+  preview={optical.png}
 }
 
 @inproceedings{choi2023autocycle,
