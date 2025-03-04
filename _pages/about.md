@@ -27,6 +27,6 @@ latest_posts:
 Before joining KT, I received my M.S. from [POSTECH](https://www.postech.ac.kr/kor/index.do), where I conducted research in the [Computer Graphics Lab](https://cg.postech.ac.kr/) under the supervision of [Prof. Sunghyun Cho](https://www.scho.pe.kr/).  
 
 My research lies at the intersection of computer graphics and computer vision, with a focus on neural rendering techniques for real-world applications.
-Also, I have experience in voice conversion and speech processing.
+Also, I have experience in voice conversion and video processing.
 
 If you're interested in my research, feel free to reach out!
