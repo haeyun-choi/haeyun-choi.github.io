@@ -28,7 +28,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-paper-has-been-accepted-to-ipiu-2025-as-an-oral-presentation",
+            },},{id: "news-a-paper-has-been-accepted-to-ipiu-2024",
+          title: 'A paper has been accepted to IPIU 2024.',
+          description: "",
+          section: "News",},{id: "news-a-paper-has-been-accepted-to-ipiu-2025-as-an-oral-presentation",
           title: 'A paper has been accepted to IPIU 2025 as an oral presentation.',
           description: "",
           section: "News",},{id: "news-i-won-the-outstanding-paper-award-at-ipiu-2025",
