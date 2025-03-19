@@ -41,13 +41,6 @@ ninja.data = [{
           title: 'A paper has been accepted to CVPR 2025.',
           description: "",
           section: "News",},{
-        id: 'social-blogger',
-        title: 'Blogger',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://hae-koos.tistory.com/", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -60,13 +53,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/haeyun-choi", "_blank");
-        },
-      },{
-        id: 'social-instagram',
-        title: 'Instagram',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://instagram.com/hae_koos", "_blank");
         },
       },{
         id: 'social-linkedin',
