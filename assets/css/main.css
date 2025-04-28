@@ -3219,3 +3219,39 @@ input, select, textarea {
 			}
 
 	}
+
+/* Hover image swap for publication teaser images */
+.hover-image {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+  }
+  
+  .hover-image img {
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: opacity 0.5s ease; /* 부드럽게 전환 */
+  }
+  
+  .hover-image img.normal {
+	position: relative;
+	z-index: 0; /* blur 이미지 기본 z-index */
+  }
+  
+  .hover-image img.hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0; /* 처음에는 안 보이게 */
+	pointer-events: none;
+	z-index: 1; /* hover 이미지를 위로 올림 */
+  }
+  
+  .hover-image:hover img.hover {
+	opacity: 1; /* deblur 이미지 등장 */
+  }
+  
+  .hover-image:hover img.normal {
+	opacity: 0; /* blur 이미지 사라짐 */
+  }  
