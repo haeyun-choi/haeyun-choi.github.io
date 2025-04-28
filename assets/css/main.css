@@ -3255,3 +3255,50 @@ input, select, textarea {
   .hover-image:hover img.normal {
 	opacity: 0; /* blur 이미지 사라짐 */
   }  
+
+  /* Glide 슬라이더 이미지 크기 고정 */
+.glide__slide img {
+	width: 100%;
+	height: 260px; /* 원하는 높이 설정 */
+	object-fit: cover; /* 이미지가 박스 꽉 차게 */
+	border-radius: 10px; /* 모서리 살짝 둥글게 (선택사항) */
+  }
+  
+  /* Glide 슬라이더 전체 영역 */
+  .glide {
+	position: relative;
+  }
+  
+  /* 화살표 위치 조정 */
+  .glide__arrows {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(-50%);
+	padding: 0 10px;
+	box-sizing: border-box;
+  }
+  
+  /* 화살표 스타일 */
+  .glide__arrow {
+	background: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
+	color: white;
+	border: none;
+	padding: 8px 12px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: background 0.3s;
+  }
+  
+  .glide__arrow:hover {
+	background: rgba(0, 0, 0, 0.8);
+  }
+
+  .glide {
+	margin-bottom: 20px; /* 이미지와 텍스트 사이 간격 조정 */
+  }
+  
+  
