@@ -223,14 +223,45 @@
 					</div>
 				</section>
 
-				<!-- Visitor Map Section -->
-				<section id="visitor-map" style="padding-top:1.5rem; text-align:center;">
-					<div style="max-width:320px; margin:0 auto;">
-						<script type="text/javascript" id="mapmyvisitors" 
-							src="//mapmyvisitors.com/map.js?d=Txzchan--LHgCtiq4Cdc9Zy_a6jPoV6smG_rkdT6Yoo&cl=ffffff&w=a">
-						</script>
-					</div>
+				<!-- Misc. -->
+				<section id="misc">
+				  <header class="major">
+				    <h2>Misc.</h2>
+				  </header>
+				
+				  <div class="row">
+				    <!-- LEFT: 3D model viewer -->
+				    <article class="col-6 col-12-xsmall work-item">
+				      <h3>Haru Choi (My Dog)</h3>
+				      <div class="box" style="padding:0; overflow:hidden;">
+				        <model-viewer
+				          src="images/Haru_Choi.glb"    <!-- 여기에 Haru GLB 경로 -->
+				          alt="3D interactive model of Haru"
+				          ar
+				          ar-modes="webxr scene-viewer quick-look"
+				          camera-controls
+				          auto-rotate
+				          rotation-per-second="15deg"
+				          shadow-intensity="0.5"
+				          style="width:100%; height:360px; background:#f5f5f5;"
+				          loading="lazy"
+				        ></model-viewer>
+				      </div>
+				      <p style="margin-top:0.5rem; font-size:0.9rem; color:#777;">Drag to rotate • Scroll to zoom</p>
+				    </article>
+				
+				    <!-- RIGHT: visitor map -->
+				    <article class="col-6 col-12-xsmall work-item">
+				      <h3>Thanks for Visiting</h3>
+				      <div style="max-width:360px; margin:0 auto; text-align:center;">
+				        <script type="text/javascript" id="mapmyvisitors"
+				          src="https://mapmyvisitors.com/map.js?d=Txzchan--LHgCtiq4Cdc9Zy_a6jPoV6smG_rkdT6Yoo&cl=ffffff&w=a">
+				        </script>
+				      </div>
+				    </article>
+				  </div>
 				</section>
+
 
 				<!-- Four -->
 				<!--
@@ -685,6 +716,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+
 
 
 
