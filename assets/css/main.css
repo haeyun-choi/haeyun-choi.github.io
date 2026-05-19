@@ -136,10 +136,11 @@ p {
   overflow: hidden;
   width: 100%;
   aspect-ratio: 3 / 2;
-  background: #f7f7f7;
+  background: #fff;
 }
 
-.publication-thumb img {
+.publication-thumb img,
+.publication-thumb video {
   display: block;
   width: 100%;
   height: 100%;
@@ -150,11 +151,16 @@ p {
   position: absolute;
   inset: 0;
   opacity: 0;
+  background: #fff;
   transition: opacity 120ms ease-in-out;
 }
 
 .publication-thumb.has-hover:hover .thumb-hover {
   opacity: 1;
+}
+
+.publication-thumb.has-hover.is-playing .thumb-default {
+  opacity: 0;
 }
 
 .hover-hint {
@@ -168,17 +174,23 @@ p {
 
 .authors,
 .venue,
-.award {
+.award,
+.publication-note {
   margin-bottom: 4px;
 }
 
 .venue,
-.award {
+.award,
+.publication-note {
   color: var(--muted);
 }
 
 .venue {
   line-height: 1.45;
+}
+
+.publication-note {
+  font-size: 14px;
 }
 
 .venue-name,
@@ -230,8 +242,9 @@ p {
 
 @media (max-width: 720px) {
   body {
-    font-size: 15px;
-    line-height: 1.68;
+    font-size: 14.5px;
+    font-weight: 400;
+    line-height: 1.62;
   }
 
   .page {
@@ -245,12 +258,16 @@ p {
   }
 
   h1 {
-    margin-bottom: 16px;
-    font-size: 28px;
+    margin-bottom: 13px;
+    font-size: 27px;
   }
 
   h2 {
     margin-top: 32px;
+  }
+
+  p {
+    margin-bottom: 10px;
   }
 
   .intro,
@@ -259,12 +276,12 @@ p {
   }
 
   .intro {
-    gap: 18px;
+    gap: 15px;
   }
 
   .profile-image {
-    width: 176px;
-    order: -1;
+    width: min(68vw, 260px);
+    justify-self: center;
   }
 
   .publication-thumb {
@@ -292,7 +309,7 @@ p {
   }
 
   .profile-image {
-    width: 156px;
+    width: min(72vw, 238px);
   }
 
   .publication-thumb {

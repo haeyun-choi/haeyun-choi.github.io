@@ -42,14 +42,19 @@ description: Academic personal website of Haeyun Choi
     {% for pub in site.data.publications %}
       <article class="publication">
         <div class="publication-media">
-          <div class="publication-thumb{% if pub.hover_thumbnail %} has-hover{% endif %}">
+          <div class="publication-thumb{% if pub.hover_thumbnail or pub.hover_video %} has-hover{% endif %}">
             <img class="thumb-default" src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.alt }}">
             {% if pub.hover_thumbnail %}
               <img class="thumb-hover" src="{{ pub.hover_thumbnail | relative_url }}" alt="">
             {% endif %}
+            {% if pub.hover_video %}
+              <video class="thumb-hover thumb-video" muted loop playsinline preload="metadata" aria-label="{{ pub.alt }}">
+                <source src="{{ pub.hover_video | relative_url }}" type="video/mp4">
+              </video>
+            {% endif %}
           </div>
-          {% if pub.hover_thumbnail %}
-            <div class="hover-hint">✓ hover to compare</div>
+          {% if pub.hover_thumbnail or pub.hover_video %}
+            <div class="hover-hint">✓ hover to {% if pub.hover_video %}play{% else %}compare{% endif %}</div>
           {% endif %}
         </div>
         <div class="publication-body">
@@ -68,13 +73,36 @@ description: Academic personal website of Haeyun Choi
           {% if pub.award and pub.award != "" %}
             <p class="award">{{ pub.award }}</p>
           {% endif %}
-          <p class="pub-links">
-            {% for link in pub.links %}
-              <a href="{{ link.url | relative_url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
-            {% endfor %}
-          </p>
+          {% if pub.note and pub.note != "" %}
+            <p class="publication-note">{{ pub.note }}</p>
+          {% endif %}
+          {% if pub.links and pub.links.size > 0 %}
+            <p class="pub-links">
+              {% for link in pub.links %}
+                <a href="{{ link.url | relative_url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+              {% endfor %}
+            </p>
+          {% endif %}
         </div>
       </article>
     {% endfor %}
   </div>
 </section>
+
+<script>
+  document.querySelectorAll('.publication-thumb .thumb-video').forEach((video) => {
+    const thumb = video.closest('.publication-thumb');
+
+    thumb.addEventListener('mouseenter', () => {
+      thumb.classList.add('is-playing');
+      video.currentTime = 0;
+      video.play();
+    });
+
+    thumb.addEventListener('mouseleave', () => {
+      video.pause();
+      video.currentTime = 0;
+      thumb.classList.remove('is-playing');
+    });
+  });
+</script>

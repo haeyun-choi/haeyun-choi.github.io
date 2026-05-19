@@ -1,3 +1,14 @@
+- title: "Cascaded 2D-to-3D Multi-view Consistency for 3D Gaussian Splatting from Two Blurry Images"
+  authors: "<strong>Haeyun Choi*</strong>, MinHyuk Jang*, I-Gil Kim"
+  venue: "Under Review"
+  location: ""
+  year: "2026"
+  award: ""
+  note: "* Equal contribution"
+  thumbnail: "/assets/images/publications/cascade.png"
+  alt: "Teaser for Cascaded 2D-to-3D Multi-view Consistency for 3D Gaussian Splatting from Two Blurry Images"
+  links: []
+
 - title: "Exploiting Deblurring Networks for Radiance Fields"
   authors: "<strong>Haeyun Choi</strong>, Heemin Yang, Janghyuk Han, Sunghyun Cho"
   venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
@@ -5,7 +16,7 @@
   year: "2025"
   award: "Outstanding Paper Award at IPIU 2025."
   thumbnail: "/assets/images/publications/ddrf_blur.png"
-  hover_thumbnail: "/assets/images/publications/ddrf_deblur.png"
+  hover_video: "/assets/images/publications/ddrf_hover.mp4"
   alt: "Teaser for Exploiting Deblurring Networks for Radiance Fields"
   links:
     - label: "Paper"
@@ -28,6 +39,7 @@
   year: "2024"
   award: ""
   thumbnail: "/assets/images/publications/optical.png"
+  hover_video: "/assets/images/publications/optical_hover.mp4"
   alt: "Teaser for optical flow-based shakiness detection"
   links:
     - label: "Paper"
