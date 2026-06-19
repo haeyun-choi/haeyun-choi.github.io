@@ -14,10 +14,7 @@
   text_after: ") is accepted to CVPR 2025."
 
 - date: "Feb. 2025"
-  text: "I received the Outstanding Paper Award at IPIU 2025."
-
-- date: "Jan. 2025"
-  text: "A paper was accepted to IPIU 2025 as an oral presentation."
-
-- date: "Jan. 2024"
-  text: "A paper was accepted to IPIU 2024."
+  text_before: ""
+  link_text: "DeepDeblurRF"
+  url: "https://haeyun-choi.github.io/DDRF_page/"
+  text_after: " received the Outstanding Paper Award at IPIU 2025."
