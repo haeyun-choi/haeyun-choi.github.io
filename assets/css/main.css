@@ -109,6 +109,10 @@ p {
   gap: 12px;
 }
 
+.news-item[hidden] {
+  display: none;
+}
+
 .news-date {
   color: var(--muted);
 }
