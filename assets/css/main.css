@@ -238,9 +238,16 @@ p {
   margin-bottom: 0;
 }
 
-.pub-links a {
+.pub-links a,
+.pub-link-disabled {
   font-size: 14px;
   font-weight: 500;
+}
+
+.pub-link-disabled {
+  color: var(--muted);
+  cursor: default;
+  opacity: 0.58;
 }
 
 .site-footer {

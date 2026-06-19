@@ -85,7 +85,11 @@ description: Academic personal website of Haeyun Choi
           {% if pub.links and pub.links.size > 0 %}
             <p class="pub-links">
               {% for link in pub.links %}
-                <a href="{{ link.url | relative_url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+                {% if link.disabled %}
+                  <span class="pub-link-disabled" aria-disabled="true">{{ link.label }}</span>
+                {% else %}
+                  <a href="{{ link.url | relative_url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+                {% endif %}
               {% endfor %}
             </p>
           {% endif %}

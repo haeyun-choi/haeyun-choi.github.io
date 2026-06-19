@@ -7,7 +7,13 @@
   note: "* Equal contribution"
   thumbnail: "/assets/images/publications/cascade.png"
   alt: "Teaser for Cascaded 2D-to-3D Multi-view Consistency for 3D Gaussian Splatting from Two Blurry Images"
-  links: []
+  links:
+    - label: "Paper"
+      disabled: true
+    - label: "Project"
+      disabled: true
+    - label: "Code"
+      disabled: true
 
 - title: "Exploiting Deblurring Networks for Radiance Fields"
   authors: "<strong>Haeyun Choi</strong>, Heemin Yang, Janghyuk Han, Sunghyun Cho"
