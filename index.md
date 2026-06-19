@@ -20,9 +20,10 @@ description: Academic personal website of Haeyun Choi
 
 <section aria-labelledby="news">
   <h2 id="news">News</h2>
-  <div class="news-list">
-    {% for item in site.data.news limit:4 %}
-      <div class="news-item">
+  {% assign news_items = site.data.news %}
+  <div class="news-list" id="news-list">
+    {% for item in news_items %}
+      <div class="news-item{% if forloop.index > 3 %} news-extra{% endif %}"{% if forloop.index > 3 %} hidden{% endif %}>
         <span class="news-date">{{ item.date }}</span>
         <span>
           {% if item.url and item.link_text %}
@@ -34,6 +35,11 @@ description: Academic personal website of Haeyun Choi
       </div>
     {% endfor %}
   </div>
+  {% if news_items.size > 3 %}
+    <div class="news-toggle-wrap">
+      <button class="news-toggle" type="button" aria-expanded="false" aria-controls="news-list">Show all</button>
+    </div>
+  {% endif %}
 </section>
 
 <section aria-labelledby="publications">
@@ -90,6 +96,23 @@ description: Academic personal website of Haeyun Choi
 </section>
 
 <script>
+  const newsToggle = document.querySelector('.news-toggle');
+
+  if (newsToggle) {
+    const extraNewsItems = document.querySelectorAll('.news-extra');
+
+    newsToggle.addEventListener('click', () => {
+      const isExpanded = newsToggle.getAttribute('aria-expanded') === 'true';
+
+      extraNewsItems.forEach((item) => {
+        item.hidden = isExpanded;
+      });
+
+      newsToggle.setAttribute('aria-expanded', String(!isExpanded));
+      newsToggle.textContent = isExpanded ? 'Show all' : 'Show fewer';
+    });
+  }
+
   document.querySelectorAll('.publication-thumb .thumb-video').forEach((video) => {
     const thumb = video.closest('.publication-thumb');
 
