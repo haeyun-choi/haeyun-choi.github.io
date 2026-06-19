@@ -11,7 +11,7 @@
     - label: "Paper"
       disabled: true
     - label: "Project"
-      disabled: true
+      url: "https://haeyun-choi.github.io/Cascaded2D3D_page/"
     - label: "Code"
       disabled: true
 
