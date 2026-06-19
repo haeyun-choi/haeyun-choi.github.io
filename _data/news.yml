@@ -8,13 +8,13 @@
   text: "I received my M.S. in Artificial Intelligence from POSTECH."
 
 - date: "Feb. 2025"
-  text_before: "A paper ("
-  link_text: "DeepDeblurRF"
-  url: "https://haeyun-choi.github.io/DDRF_page/"
-  text_after: ") is accepted to CVPR 2025."
-
-- date: "Feb. 2025"
   text_before: ""
   link_text: "DeepDeblurRF"
   url: "https://haeyun-choi.github.io/DDRF_page/"
   text_after: " received the Outstanding Paper Award at IPIU 2025."
+
+- date: "Feb. 2025"
+  text_before: "A paper ("
+  link_text: "DeepDeblurRF"
+  url: "https://haeyun-choi.github.io/DDRF_page/"
+  text_after: ") is accepted to CVPR 2025."
