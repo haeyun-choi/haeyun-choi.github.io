@@ -1,0 +1,23 @@
+title: Haeyun Choi
+description: Academic personal website of Haeyun Choi
+url: "https://haeyun-choi.github.io"
+baseurl: ""
+
+author:
+  name: Haeyun Choi
+  email: haeyun0114@gmail.com
+  github: haeyun-choi
+  linkedin: "https://www.linkedin.com/in/haeyun-choi/"
+  scholar: "https://scholar.google.com/citations?user=0scyJFQAAAAJ&hl=ko"
+  cv: "/assets/files/CV_Haeyun_Choi.pdf"
+
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

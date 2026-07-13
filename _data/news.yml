@@ -1,0 +1,20 @@
+- date: "Aug. 2026"
+  text: "I will begin my Ph.D. at the University of Virginia School of Data Science."
+
+- date: "Mar. 2025"
+  text: "I joined KT R&D Center as a Research Scientist."
+
+- date: "Feb. 2025"
+  text: "I received my M.S. in Artificial Intelligence from POSTECH."
+
+- date: "Feb. 2025"
+  text_before: ""
+  link_text: "DeepDeblurRF"
+  url: "https://haeyun-choi.github.io/DDRF_page/"
+  text_after: " received the Outstanding Paper Award at IPIU 2025."
+
+- date: "Feb. 2025"
+  text_before: "A paper ("
+  link_text: "DeepDeblurRF"
+  url: "https://haeyun-choi.github.io/DDRF_page/"
+  text_after: ") is accepted to CVPR 2025."

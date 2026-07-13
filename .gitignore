@@ -1,0 +1,8 @@
+.DS_Store
+Gemfile.lock
+_site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+make_page_hy.txt
+WEBSITE_REBUILD_NOTES.md
