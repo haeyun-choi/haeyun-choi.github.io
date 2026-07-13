@@ -276,6 +276,16 @@ p {
   text-decoration: underline;
 }
 
+.mapmyvisitors-tracker-link,
+.mapmyvisitors-tracker {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  pointer-events: none;
+}
+
 @media (max-width: 860px) {
   .page {
     padding-left: 24px;
