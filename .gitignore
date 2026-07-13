@@ -5,3 +5,4 @@ _site/
 .sass-cache/
 vendor/
 make_page_hy.txt
+WEBSITE_REBUILD_NOTES.md
