@@ -5,8 +5,9 @@
   year: "2026"
   award: ""
   note: "* Equal contribution"
-  thumbnail: "/assets/images/publications/cascade.png"
-  alt: "Teaser for Cascaded 2D-to-3D Multi-view Consistency for 3D Gaussian Splatting from Two Blurry Images"
+  thumbnail: "/assets/images/publications/cascade_blurry.png"
+  hover_video: "/assets/images/publications/cascade_hover.mp4"
+  alt: "Two blurry input views and reconstructed sharp novel views for the Cascaded 2D-to-3D method"
   links:
     - label: "Paper"
       disabled: true
