@@ -4,7 +4,7 @@ title: Home
 description: Academic personal website of Haeyun Choi
 ---
 
-# Haeyun Choi
+# Haeyun (Eden) Choi
 
 <section class="intro">
   <div class="intro-text">
