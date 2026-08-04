@@ -1,4 +1,10 @@
 - date: "Aug. 2026"
+  text_before: "A paper (CasDeblurGS) is accepted to "
+  link_text: "MUSTCV Workshop"
+  url: "https://sites.google.com/view/mustcv-2026/home"
+  text_after: " at ECCV 2026."
+
+- date: "Aug. 2026"
   text: "I will begin my Ph.D. at the University of Virginia School of Data Science."
 
 - date: "Mar. 2025"
