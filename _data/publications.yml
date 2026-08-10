@@ -10,11 +10,9 @@
   alt: "Two blurry input views and reconstructed sharp novel views for the Cascaded 2D-to-3D method"
   links:
     - label: "Paper"
-      disabled: true
+      url: "https://haeyun-choi.github.io/Cascaded2D3D_page/static/files/CasDeblurGS_ECCVW2026.pdf"
     - label: "Project"
       url: "https://haeyun-choi.github.io/Cascaded2D3D_page/"
-    - label: "Code"
-      disabled: true
 
 - title: "Exploiting Deblurring Networks for Radiance Fields"
   authors: "<strong>Haeyun Choi</strong>, Heemin Yang, Janghyuk Han, Sunghyun Cho"
